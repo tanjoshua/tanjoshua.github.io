@@ -14,3 +14,8 @@ h1 {
 #smallheader {
 	text-align: center;
 }
+
+#giant {
+	font-size: 500px;
+	text-align: center;
+}
