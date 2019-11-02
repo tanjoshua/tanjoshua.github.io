@@ -1,0 +1,16 @@
+h1 {
+	color: red;
+	font-size: 100px;
+}
+
+.first {
+	color: green;
+}
+
+.second {
+	color: yellow;
+}
+
+#smallheader {
+	color: purple;
+}
