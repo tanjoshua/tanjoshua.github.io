@@ -15,7 +15,8 @@ h1 {
 	text-align: center;
 }
 
-#giant {
-	font-size: 200px;
-	text-align: center;
+#pepe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
