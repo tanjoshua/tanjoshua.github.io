@@ -1,2 +1,2 @@
 # tanjoshua.github.io
-Hi this is my website
+This is a website I made as a joke while learning HTML and CSS
