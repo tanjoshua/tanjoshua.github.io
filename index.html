@@ -1,35 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Joshua Tan</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <!-- Bulma Version 0.9.0-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/personal.css" />
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+  </head>
 
-<head>
-	<title> Joshua Tan </title>
-	<h1> Welcome to my website!</h1>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-link is-fixed-top">
+      <div class="navbar-brand">
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
 
-<body>
-	<div class="first">
-		<h2 id="smallheader"> Hi, my name is Joshua </h2>
-		<h2 id="smallerheader"> Yes this is comic sans </h2>
-		<p> I am a Singaporean studying in Brown University, USA</p>
-		<img id="pepe" src="smug-pepe.jpg">
-		<a href="https://bitcoin.org/en/buy" target="_blank"><img id="bitcoin" src="bitcoin.gif"></a>
-	</div>
-	<div class="second">
-		<h2> You probably need these</h2>
-		<ol>
-			<li> <a href="https://www.google.com" target="_blank"> Google </a> </li>
-			<li> <a href="https://www.youtube.com" target="_blank"> Youtube </a> </li>
-			<li> <a href="https://www.youtube.com/watch?v=QHgFBeyoYJw" target="_blank"> Stephen, for your listening pleasure
-				</a> </li>
-		</ol>
-		<h2> Here are some websites you need. You just don't know that you need them.</h2>
-		<ol>
-			<li> <a href="https://pointerpointer.com/" target="_blank"> Point </a> </li>
-			<li> <a href="http://www.omfgdogs.com/#" target="_blank"> Dogs </a> </li>
-		</ol>
-	</div>
-	My <a href='privacypolicy.html'>Privacy Policy</a>.
-</body>
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about">
+            <span class="icon">
+              <i class="fas fa-info"></i>
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item" href="#resume">
+            <span class="icon">
+              <i class="fas fa-file-alt"></i>
+            </span>
+            <span>Resume</span>
+          </a>
+          <a class="navbar-item" href="#projects">
+            <span class="icon">
+              <i class="fas fa-th-list"></i>
+            </span>
+            <span>Projects</span>
+          </a>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Header -->
+    <section class="hero is-link is-medium">
+      <div class="hero-body">
+        <div class="container">
+          Hey There! I am
+          <h1 class="title is-1">Joshua Tan</h1>
+          <h2 class="subtitle is-3">Junior at Brown University</h2>
+          <a href="https://github.com/tanjoshua" target="_blank">
+            <span class="icon mr-3">
+              <i class="fab fa-github fa-2x"></i>
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/tjoshua/" target="_blank">
+            <span class="icon mr-3">
+              <i class="fab fa-linkedin-in fa-2x"></i>
+            </span>
+          </a>
+
+          <a href="mailto: joshua_tan@brown.edu" target="_blank">
+            <span class="icon">
+              <i class="fa fa-envelope fa-2x"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <!-- Title -->
+      <div class="section-heading">
+        <div class="container">
+          <h3 class="title is-2">About Me</h3>
+          <p>
+            Computer Science and Economics Student at Brown University with
+            well-rounded experiences in Full-stack Software Development. I
+            always on the look-out for opportunities to gain exposure to new
+            technologies and improve my abilities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume -->
+    <section class="section" id="resume">
+      <div class="container">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">Looking for a new hire?</h4>
+        <a href="#" class="button is-link is-medium">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Check out my resume</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Projects</h3>
+          <h4 class="subtitle is-5">
+            My latest works. For more projects, check out my
+            <a href="https://github.com/tanjoshua" target="_blank">Github</a>.
+          </h4>
+        </div>
+        <br />
+
+        <div class="container portfolio-container">
+          <div class="columns">
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">Circles</p>
+                </header>
+                <div class="card-content">
+                  <figure class="image mb-1">
+                    <img src="./images/circles.png" alt="Circles Icon" />
+                  </figure>
+                  Circles is a privacy-centric social media platform with
+                  features to promote physical interactions and quality
+                  connections. Users can make plans and share memories with
+                  their social circles with highly customizable privacy
+                  controls.
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://devpost.com/software/circles-tvo1ul"
+                    target="_blank"
+                    class="card-footer-item"
+                    >Devpost</a
+                  >
+                  <a
+                    href="https://github.com/tanjoshua/circles-hab-2021"
+                    target="_blank"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Coordinator</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  Web application that generates optimal meeting times for a
+                  group of people based on their availability calendar. Features
+                  a click-and-drag calendar interface that makes it easy for
+                  users to indicate their availability. Coordinator can also
+                  split users into subgroups with similar meeting times using a
+                  variation of k-means clustering. Timezone adjustments are
+                  automatic and the application is designed to be accessible for
+                  visually impaired individuals and keyboard only users.
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://coordinator.tanjoshua.com/"
+                    target="_blank"
+                    class="card-footer-item"
+                    >Try it out</a
+                  >
+                </footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Secret Shop</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image mb-1">
+                    <img src="./images/secretshop.jpg" alt="Secret Shop" />
+                  </figure>
+                  Secret Shop is a two-sided web marketplace for gamers to buy,
+                  trade or sell second-hand video games. Users can view the
+                  games possessed by other users and propose a trade with them.
+                  Secret Shop also includes a real-time chat application for
+                  users to negotiate on price. Name inspired by the Dota 2
+                  in-game shop
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://github.com/secret-shop-sg/main"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
