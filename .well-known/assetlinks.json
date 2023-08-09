@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.uniad.uniad",
+        "sha256_cert_fingerprints": [
+          "7C:46:9A:01:A1:95:D7:F3:E2:42:F9:DB:2B:CC:A3:5A:3C:E2:88:37:70:10:72:F8:68:60:32:48:5E:29:30:98"
+        ]
+      }
+    }
+  ]
